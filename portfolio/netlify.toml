@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# No redirects needed — Netlify auto-detects Next.js 14+
+# and uses the OpenNext runtime which handles routing, API routes,
+# middleware, and SSR out of the box.
